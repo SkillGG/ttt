@@ -1,0 +1,11 @@
+{
+    "emeraldwalk.runonsave": {
+      "commands": [
+        {
+          "cmd": "npx less \"${file}\" \"${fileDirname}\\${fileBasenameNoExt}.css\"",     
+          "match": ".*\\.less"  
+        }
+      ]
+    }
+  } 
+  
